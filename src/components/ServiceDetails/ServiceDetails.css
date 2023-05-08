@@ -1,0 +1,17 @@
+.services-description {
+    background-color: rgba(100, 100, 100, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.services-description p {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.services-description p span {
+    display: inline-block;
+    font-weight: normal;
+    text-decoration: none;
+}
