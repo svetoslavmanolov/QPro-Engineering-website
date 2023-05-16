@@ -174,6 +174,7 @@ a:focus {
   background-size: cover;
   color: #ffffff;
   padding: 25px 0;
+  border-radius: 10px;
 }
 
 .slider_section .row {
@@ -184,6 +185,7 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .slider_section .detail-box {
