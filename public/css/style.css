@@ -740,6 +740,7 @@ a:focus {
   background-size: cover;
   margin: 0 45px;
   padding: 90px 75px;
+  border-radius: 10px;
 }
 
 .agency_section .agency_container .box {
@@ -747,6 +748,7 @@ a:focus {
   color: #ffffff;
   width: 60%;
   padding: 120px 90px;
+  border-radius: 10px;
 }
 
 .agency_section .agency_container .box .detail-box .heading_container {

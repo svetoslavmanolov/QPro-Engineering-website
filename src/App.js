@@ -2,7 +2,7 @@ import { Header } from './components/Header/Header';
 import { Home } from './components/Home/Home';
 import { Footer } from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
-// import { About } from './components/About/About';
+import { About } from './components/About/About';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Services } from './components/Services/Services';
 // import { Contacts } from './components/Contacts/Contacts';
@@ -21,7 +21,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/services/details' element={<ServiceDetails />} />
         {/* <Route path='/contacts' element={<Contacts />}/> */}
-        {/* <Route path='/about' element={<About />} /> */}
+        <Route path='/about' element={<About />} />
       </Routes>
       {/* <Info /> */}
       <Footer />
