@@ -7,7 +7,7 @@ import { Portfolio } from './components/Portfolio/Portfolio';
 import { Services } from './components/Services/Services';
 import { Contacts } from './components/Contacts/Contacts';
 import { ProjectDetails } from './components/ProjectDetails/ProjectDetails';
-// import { Info } from './components/Info/Info';
+import { Info } from './components/Info/Info';
 import { ServiceDetails } from './components/ServiceDetails/ServiceDetails';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path='/contacts' element={<Contacts />}/>
         <Route path='/about' element={<About />} />
       </Routes>
-      {/* <Info /> */}
+      <Info />
       <Footer />
     </>
 

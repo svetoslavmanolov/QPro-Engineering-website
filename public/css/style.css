@@ -939,7 +939,8 @@ a:focus {
   position: relative;
   background-color: #2d2d2d;
   color: #ffffff;
-  margin: 0 45px 45px;
+  margin: 0 20px 20px;
+  border-radius: 10px;
 }
 
 .info_section .social_container {
@@ -1010,6 +1011,10 @@ a:focus {
 
 /* end contact section */
 
+.info_section .col-md-6 .info_link-box {
+  width: 100%;
+  
+}
 
 .info_section .info_link-box a {
   display: -webkit-box;
@@ -1020,6 +1025,7 @@ a:focus {
   align-items: center;
   margin: 15px 0;
   pointer-events: none;
+  
 }
 
 .info_section .info_link-box a:hover {
