@@ -7,7 +7,7 @@ export const Services = () => {
             <div className="container">
                 <div className="heading_container">
                     <h2>
-                        Ус<span>лу</span>ги
+                        Ус<span style={{color: '#FF0000'}}>лу</span>ги
                     </h2>
                     <p style={{ fontSize: '25px' }}>
                         Нашите услуги в сферата на проектирането
@@ -67,7 +67,7 @@ export const Services = () => {
                 <Link to='/services/details'>
                     <div className="btn-box">
                         <a href="">
-                            Прочете още
+                            Прочетете още
                         </a>
                     </div>
                 </Link>

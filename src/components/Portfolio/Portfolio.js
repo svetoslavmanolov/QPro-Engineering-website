@@ -13,7 +13,7 @@ export const Portfolio = () => {
         <section className="portfolio_section layout_padding2-top">
             <div className="heading_container">
                 <h2>
-                    Пор<span>тф</span>олио
+                    Пор<span style={{color: '#FF0000'}}>тфо</span>лио
                 </h2>
                 <p style={{fontSize:'25px'}}>
                     Нашите завършени проекти
