@@ -1,4 +1,4 @@
-import './ProjectDetails.css'
+// import './ProjectDetails.css'
 import { allProjects } from '../../allProjects/allProjects'
 import { useParams } from 'react-router-dom'
 import { useState } from 'react'
@@ -28,11 +28,13 @@ export const ProjectDetails = () => {
                         <p>предназначение: <span> {data[projectId].purpose}</span></p>
                         <p>ет ажност: <span> {data[projectId].height}</span></p>
                         <p>площ РЗП: <span> {data[projectId].area}</span> </p>
-                        <p>описание: <span> {data[projectId].description}</span></p>
                     </div>
 
                 </div>
-                
+                <div className="project-description">
+                    <p>описание: <span> {data[projectId].description}</span></p>
+                </div>
+
             </div>
 
         </section>

@@ -4,37 +4,36 @@
     margin: 20px 100px;
     /* border: 2px solid black; */
     border-radius: 10px;
-    background-color: rgba(100, 100, 100, 0.1);
-    
+    background-color: rgba(100, 100, 100, 0.1); 
   }
 
   .project-box {
     display: flex;
   }
 
+  .project-box img {
+    margin: 15px;
+    width: 45%;
+    border-radius: 10px;
+  }
+
   .project-box .project-details {
     margin: 20px 0px 0px 30px;
   }
 
-  .project-box .project-details p {
+  .project-box .project-details p,
+  .project-box .project-img p,
+  .project-container .project-description p {
     margin: 5px;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
-    /* text-decoration: underline; */
   }
 
-  .project-box .project-details p span {
+  .project-box .project-details p span,
+  .project-box .project-img p span {
     /* display: inline-block; */
     font-weight: normal;
     font-style: normal;
-
-
   }
 
-.project-box img {
-  margin: 15px;
-  width: 500px;
-  /* height: 400px; */
-  border-radius: 10px;
-}

@@ -35,12 +35,9 @@ export const Home = () => {
                                                 Engineering
                                             </h1>
                                             <h2>
-                                                Проектиране <br />
-                                                Консултации <br />
-                                                Авторски надзор <br />
-                                                Заснемане на обекти <br />
-                                                Изготвяне на ПБЗ <br />
-                                                Изготвяне на ПУСО
+                                                -Проектиране на сгради и съоръжения <br />
+                                                -Конструктивни становища <br />
+                                                -Обследване на строителни конструкции <br />                                                                                              
                                             </h2>
                                             <Link to="/contacts">
                                                 Свържете се с нас
@@ -50,7 +47,7 @@ export const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="carousel-item">
+                        {/* <div className="carousel-item">
                             <div className="container-fluid">
                                 <div className="row">
                                     <div className="col-md-6 px-0">
@@ -75,8 +72,8 @@ export const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="carousel-item">
+                        </div> */}
+                        {/* <div className="carousel-item">
                             <div className="container-fluid">
                                 <div className="row">
                                     <div className="col-md-6 px-0">
@@ -101,7 +98,7 @@ export const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <div className="carousel_btn-box">
                         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

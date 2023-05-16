@@ -4,7 +4,7 @@ export const Footer = () => {
         <section className=" footer_section">
             <div className="container">
                 <p>
-                    &copy; <span id="displayYear"></span> All Rights Reserved by QPro Engineering
+                    &copy; <span id="displayYear"></span> All Rights Reserved
                 </p>
             </div>
         </section>

@@ -29,29 +29,26 @@ export const Services = () => {
                             <Link to='/services/details'>
                                 <div className="detail-box" id="img1-tab" data-toggle="tab" href="#img1" role="tab" aria-selected="true">
                                     <h4>
-                                        Проектиране <br />
+                                        Проектиране на <br />
+                                        сгради и <br />
+                                        съоръжения <br />
                                     </h4>
                                 </div>
                             </Link>
                             <Link to='/services/details'>
                                 <div className="detail-box" id="img2-tab" data-toggle="tab" href="#img2" role="tab" aria-selected="false">
                                     <h4>
-                                        Консултации<br />
+                                        Конструктивни <br />
+                                        становища
                                     </h4>
                                 </div>
                             </Link>
                             <Link to='/services/details'>
                                 <div className="detail-box" id="img2-tab" data-toggle="tab" href="#img3" role="tab" aria-selected="false">
                                     <h4>
-                                        Авторски надзор <br />
-                                    </h4>
-                                </div>
-                            </Link>
-                            <Link to='/services/details'>
-                                <div className="detail-box" id="img2-tab" data-toggle="tab" href="#img3" role="tab" aria-selected="false">
-                                    <h4>
-                                        Заснемане на <br />
-                                        обекти
+                                        Обследване на <br />
+                                        строителни <br />
+                                        конструкции
                                     </h4>
                                 </div>
                             </Link>
@@ -59,18 +56,11 @@ export const Services = () => {
                                 <div className="detail-box" id="img2-tab" data-toggle="tab" href="#img4" role="tab" aria-selected="false">
                                     <h4>
                                         Изготвяне на <br />
-                                        ПБЗ
+                                        ПБЗ, ПУСО
                                     </h4>
                                 </div>
                             </Link>
-                            <Link to='/services/details'>
-                                <div className="detail-box" id="img2-tab" data-toggle="tab" href="#img4" role="tab" aria-selected="false">
-                                    <h4>
-                                        Изготвяне на  <br />
-                                        ПУСО
-                                    </h4>
-                                </div>
-                            </Link>                          
+                            
                         </div>
                     </div>
                 </div>
