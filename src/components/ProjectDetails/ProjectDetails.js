@@ -26,7 +26,7 @@ export const ProjectDetails = () => {
                         <p>име: <span> {data[projectId].name}</span></p>
                         <p>локация: <span> {data[projectId].location}</span></p>
                         <p>предназначение: <span> {data[projectId].purpose}</span></p>
-                        <p>ет ажност: <span> {data[projectId].height}</span></p>
+                        <p>етажност: <span> {data[projectId].height}</span></p>
                         <p>площ РЗП: <span> {data[projectId].area}</span> </p>
                     </div>
 
